@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="@dimen/_5sdp"
+    android:orientation="horizontal">
+
+   <LinearLayout
+    android:id="@+id/l"
+    android:orientation="vertical"
+    android:layout_width="@dimen/_200sdp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Lot No."
+            android:textColor="@color/ThemeColor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text=":  "
+            android:textColor="@color/ThemeColor" />
+
+        <TextView
+            android:id="@+id/ln"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="324"
+            android:textColor="@color/grey" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="@dimen/_60sdp"
+               android:layout_height="wrap_content"
+               android:gravity="left"
+               android:text="StyleCode"
+               android:textColor="@color/ThemeColor" />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:gravity="left"
+               android:text=":  "
+               android:textColor="@color/ThemeColor" />
+
+           <TextView
+               android:id="@+id/sc"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:text="324"
+               android:textColor="@color/grey" />
+
+
+       </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="ScanStatus"
+            android:textColor="@color/ThemeColor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text=":  "
+            android:textColor="@color/ThemeColor" />
+        <TextView
+            android:id="@+id/ss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="324"
+            android:textColor="@color/grey" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    <TextView
+        android:padding="@dimen/_5sdp"
+        android:id="@+id/vc"
+        android:layout_gravity="right|bottom"
+        android:textColor="@color/white"
+        android:background="@drawable/effectbg"
+        android:layout_width="wrap_content"
+        android:text="ViewPieCharts"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+  <!--  </android.support.v7.widget.CardView>-->

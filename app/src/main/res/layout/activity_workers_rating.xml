@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context="com.sevenrocks.firebasedb.DashBoardActivtiy.WorkersRatingActivity">
+    <include layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:id="@+id/tch"
+            android:text="No Data Found!\nPlease go back and select different dates thanks."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+        <com.sevenrocks.firebasedb.Common.AnimatedListView.ListViewExt
+            android:layout_width="match_parent"
+            android:id="@+id/llList"
+            android:layout_height="match_parent">
+
+        </com.sevenrocks.firebasedb.Common.AnimatedListView.ListViewExt>>
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

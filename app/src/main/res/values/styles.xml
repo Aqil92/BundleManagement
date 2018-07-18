@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.StatusBarTransparent" parent="AppTheme" />
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/ThemeColor</item>
+        <item name="colorPrimaryDark">@color/ThemeColor</item>
+        <item name="colorAccent">@color/ThemeColor</item>
+        <item name="colorControlActivated">@color/ThemeColor</item>
+        <item name="android:actionMenuTextColor">@color/ThemeColor</item>
+    </style>
+
+
+
+</resources>

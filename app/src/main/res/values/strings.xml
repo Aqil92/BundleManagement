@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SevenRocks</string>
+    <string name="lotno">lono</string>
+    <string name="scanned">"Scanned"</string>
+    <string name="unScanned">"Unscanned"</string>
+
+
+</resources>
